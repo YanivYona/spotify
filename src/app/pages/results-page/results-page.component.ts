@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { SpotifyService } from 'src/app/services/spotify.service';
 
 @Component({
-  selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrls: ['./home-page.component.scss']
+  selector: 'app-results-page',
+  templateUrl: './results-page.component.html',
+  styleUrls: ['./results-page.component.scss']
 })
-export class HomePageComponent implements OnInit {
+export class ResultsPageComponent implements OnInit {
 
   value: string = '';
   items: any[];

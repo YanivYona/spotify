@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './pages/home-page/home-page.component';
+import { ResultsPageComponent } from './pages/results-page/results-page.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 
@@ -15,7 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
-  declarations: [AppComponent, HomePageComponent, HeaderComponent],
+  declarations: [AppComponent, ResultsPageComponent, HeaderComponent],
   imports: [
     BrowserModule,
     FormsModule,
