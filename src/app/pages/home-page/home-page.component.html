@@ -1,0 +1,14 @@
+<div class="home-page-container">
+    <div class="search-container">
+        <mat-form-field class="search-input-container" appearance="fill" floatLabel='never'>
+            <input class="search-input" placeholder="Search" matInput type="text" [(ngModel)]="value">
+        </mat-form-field>
+        <div class="search-btn-container">
+            <button class="search-btn" mat-raised-button (click)="search()">Search</button>
+        </div>
+    </div>
+
+    <mat-divider class="divider"></mat-divider>
+
+    <div class="results-container"></div>
+</div>

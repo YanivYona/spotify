@@ -1,0 +1,31 @@
+.home-page-container {
+  height: 100%;
+  .search-container {
+    display: flex;
+    padding-top: 50px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    .search-input-container {
+      width: 400px;
+      .search-input {
+      }
+      .clear-btn {
+      }
+    }
+    .search-btn-container {
+      .search-btn {
+      }
+    }
+  }
+  .divider{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .results-container {
+  }
+}
